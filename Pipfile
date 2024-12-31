@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+pytest = "*"
+requests = "*"
+python-dotenv = "*"
+pytest-rerunfailures = "*"
+pytest-ordering = "*"
+pytest-xdist = "*"
+allure-pytest = "*"
+imagegrab = "*"
+pillow = "*"
+pyyaml = "*"
+locust = "*"
+pytesseract = "*"
+google = "*"
+google-auth = "*"
+google-auth-oauthlib = "*"
+google-auth-httplib2 = "*"
+google-api-python-client = "*"
+bs4 = "*"
+appium-python-client = "==2.0"
+bcrypt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
